@@ -29,7 +29,10 @@ Asegúrate de tener instalado Docker y Docker Compose en tu máquina.
 1. Clona el repositorio:
    ```
    git clone <URL_DEL_REPOSITORIO>
-    git push -u origin main
+   cd fancy-login-form
+   git add .
+   git commit -m "Initial commit"
+   git push -u origin main --force
    ```
 
 2. Construye la imagen de Docker:
